@@ -32,6 +32,7 @@ public class Test2 {
         }
         return true;
     }*/
+  //pull test
   public static int getSuInc(int n) {
       int count = 0;
       for (int i = 1; i <= n; i++) {
