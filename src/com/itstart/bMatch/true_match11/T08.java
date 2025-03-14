@@ -32,6 +32,7 @@ public class T08 {
         System.out.println("请输入增长年份:");
         int year=Integer.parseInt(sc.nextLine());
 //这里的代码是错误的，直接引用了arr数组的地址，并没有创建一个新的数组。
+//dithub commit
         char [][]newArr=arr;
         for (int i=0;i<year;i++){
             /*if (i==0){
