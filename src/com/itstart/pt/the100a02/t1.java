@@ -26,6 +26,7 @@ public class t1 {
             String key =new String (ch);
             //判断是否存在,存在则添加到新集合中,不存在创建新集合
             //存在不创建用对应原来数组,不存在创建
+   //此处传送地址值，更新集合位置信息或创建新集合，将地址值赋值给list
             List<String> list =map.getOrDefault(key,new ArrayList<>());
             list.add(str);
             //更新map集合
