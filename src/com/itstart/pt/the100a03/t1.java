@@ -7,7 +7,7 @@ public class t1 {
     public static void main(String[] args) {
         //最长连续序列
         int[] nums = {0, 3, 7, 2, 5, 8,13,12,23,4, 6, 0, 1};
-        System.out.println(longestConsecutive(nums));
+        System.out.println("  "+longestConsecutive(nums));
 
     }
    public static int longestConsecutive(int[] nums) {
@@ -19,7 +19,7 @@ public class t1 {
             set.add(num);
         }
        for (Integer i : set) {
-           System.out.println(i);
+           System.out.print(i);
        }
 //悟:寻找终止条件,连续条件不适合应用
         int maxL =0;
