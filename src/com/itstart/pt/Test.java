@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Test {
-    public static void main(String[] args) {
-
+    @org.junit.Test
+    public void method1(){
+        System.out.println("method1");
     }
 }
