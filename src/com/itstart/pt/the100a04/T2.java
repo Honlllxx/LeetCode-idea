@@ -2,7 +2,7 @@ package com.itstart.pt.the100a04;
 
 public class T2 {
     public static void main(String[] args) {
-        int []nums ={0,2,3,5,70,0,0,0,5,0};
+        int []nums ={0,2,3,5,0,70,0,0,0,5,0};
         moveZeroes(nums);
         for (int num : nums) {
             System.out.print(num+" ");
@@ -21,6 +21,7 @@ public class T2 {
                 //没目标值一起走,有目标值left停留
                 swap(nums, right, left);
                 left++;
+                //这里
             }
             right++;
         }
